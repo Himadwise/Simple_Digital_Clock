@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    flex-direction: column;
+    font-family: 'Courier New', Courier, monospacea;
+    font-weight: 900;
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.9));
+}
+#today, #time{
+    font-size: 8rem;
+    color: #fff;
+}
+#date{
+    font-size: 4rem;
+    color: #fff;
+}
+
+@media (max-width: 992px){
+
+    #time, #today{
+        font-size:7rem;
+    }
+    #date{
+        font-size: 3rem;
+    }
+}
+
+@media (max-width: 792px){
+    #time, #today{
+        font-size:6rem;
+    }
+    #date{
+        font-size: 2.5rem;
+    }
+}
+@media (max-width: 692px){
+    #time, #today{
+        font-size:4rem;
+    }
+    #date{
+        font-size: 2rem;
+    }
+}
+
+@media (max-width: 492px){
+    #time, #today{
+        font-size:3rem;
+    }
+    #date{
+        font-size: 1.5rem;
+    }
+}
+
+@media (max-width: 292px){
+    #time, #today{
+        font-size:2rem;
+    }
+    #date{
+        font-size: 1rem;
+    }
+}
